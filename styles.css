@@ -8,7 +8,7 @@
   /*========== Colors ==========*/
   /* Change favorite color to match images */
   /*Green dark 190 - Green 171 - Grren Blue 200*/
-  --hue-color: 190;
+  --hue-color: 217;
 
   /* HSL color mode */
   --first-color: hsl(var(--hue-color), 64%, 22%);
@@ -331,15 +331,7 @@ input {
 .home__data-title, 
 .home__social-link, 
 .home__info {
-  color: var(--white-color);
-}
-
-.home__data-subtitle {
-  display: block;
-  font-size: 80px;
-  font-weight: var(--font-bold);
-  margin-bottom: var(--mb-0-75);
-  text-align: center
+  color: #fdecda;
 }
 
 .home__data-title {
@@ -347,14 +339,6 @@ input {
   font-weight: var(--font-medium);
   margin-bottom: var(--mb-2-5);
   text-align: center 
-  
-}
-
-.home__data-title1 {
-  font-size: 90px;
-  font-weight: var(--font-medium);
-  margin-bottom: var(--mb-2-5);
-  text-align: left 
   
 }
 
