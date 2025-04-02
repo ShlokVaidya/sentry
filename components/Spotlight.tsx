@@ -13,7 +13,7 @@ export function SpotlightNew() {
         className="absolute inset-0 w-full h-full object-cover"
       />
       <Spotlight />
-      <div className="p-4 max-w-7xl mx-auto relative z-10 w-full md:pt-0 text-center">
+      <div className="p-4 max-w-8xl mx-auto relative z-10 w-full md:pt-0 text-center">
         <ProfilePic />
         <h1 className="text-4xl md:text-6xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-500 to-neutral-900 dark:from-neutral-50 dark:to-neutral-400 bg-opacity-50 pt-2 pb-4  border-t border-l border-r border-b border-neutral-300 dark:border-neutral-600">
           Hey, I'm Shlok! <br />
@@ -34,7 +34,7 @@ export function SpotlightNew() {
           </button>
         </div>
         {/* Oval container for social media icons */}
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 bottom-padding-10px flex justify-center">
           <div className="flex items-center justify-between w-56 h-16 bg-neutral-200 dark:bg-neutral-800 rounded-full shadow-md px-4">
             <a
               href="https://github.com"

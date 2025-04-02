@@ -1,4 +1,5 @@
 import { SpotlightNew } from "@/components/Spotlight";
+import SolidBento from "@/components/bento-grid";
 import React from "react";
 
 export default function Home() {
@@ -6,7 +7,7 @@ export default function Home() {
     <main>
       <SpotlightNew />
       <div className="content">
-        {/* Add your content here */}
+      <SolidBento />
       </div>
     </main>
   );
